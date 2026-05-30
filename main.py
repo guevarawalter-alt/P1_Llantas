@@ -28,7 +28,7 @@ def parse_args():
         choices=["custom_cnn", "resnet50", "efficientnet_b0", "all"],
         help="Arquitectura a entrenar (default: all)",
     )
-    parser.add_argument("--epochs",     type=int,   default=3,   help="Épocas de entrenamiento")
+    parser.add_argument("--epochs",     type=int,   default=30,   help="Épocas de entrenamiento")
     parser.add_argument("--batch-size", type=int,   default=32,   help="Tamaño del batch")
     parser.add_argument("--lr",         type=float, default=1e-4, help="Learning rate")
     parser.add_argument(

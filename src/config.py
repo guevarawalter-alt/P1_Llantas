@@ -19,7 +19,7 @@ RESULTS_DIR  = PROJECT_ROOT / "results"
 # ── Hiperparámetros por defecto ───────────────────────────────────────────────
 IMG_SIZE   = 224
 BATCH_SIZE = 32
-EPOCHS     = 3
+EPOCHS     = 30
 PATIENCE   = 7
 SEED       = 42
 LR         = 1e-4
