@@ -1,0 +1,41 @@
+# Dataset (demasiado grande para el repo)
+data/
+
+# Resultados generados
+results/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entornos virtuales
+venv/
+env/
+.env/
+.venv/
+
+# Credenciales Kaggle
+.kaggle/
+kaggle.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Checkpoints de modelos (pesados — subir solo si tienes LFS)
+*.pth
+*.pt
